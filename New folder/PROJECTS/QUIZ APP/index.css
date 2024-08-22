@@ -1,0 +1,93 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    background-image:linear-gradient(to right, rgba(123,123,321,0.4),white ) ;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    /* height: 30em; */
+    width: 20em;
+    text-align: center;
+    box-shadow: 5px  5px  15px rgba(0,0,0,0.4) ;
+    border-radius: 10px;
+    padding: 2em;
+    font-size:1.2em ;
+
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.container h3 {
+    text-align: left;
+    /* align-self: flex-start; */
+
+}
+.container h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.container form input[type='radio']{
+    display: none;
+    background-color: rgb(16, 169, 240);
+    border: none;
+    outline: none;
+    padding: 0.4em;
+    border-radius: 3px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.container form input[type='submit']{
+    border: none;
+    background-color: rgb(150, 15, 203);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 0.4em;
+    border-radius: 3px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+.container form input[type='submit']:hover{
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 1),rgb(15, 15, 225)) ;
+}
+.container form .options {
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+}
+.container form label{
+    border: 1px solid rgb(251, 4, 255);
+    padding: 7px;
+    background-color: rgb(73, 170, 255);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+
+
+
+}
+.container form label:hover{
+ background-color :  rgb(12, 191, 232);
+}
+.container form input[type='radio']:checked + label {
+    background-color: rgb(11, 68, 115);
+    color: #ffffff;
+}
+.container form label.correct {
+    background-color: rgb(24, 215, 24);
+}
+

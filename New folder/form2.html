@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <h1>information</h1>
+    <form action="">
+        <fieldset>
+            <legend> <b>personal informatio</b>n</legend>
+            <label for="mat"><b>first NAME</b> </label>
+            <input type="text" required name="fname" placeholder="enter here !" id="mat">
+            <br><br>
+            <label for="tom"><b>LAST NAME</b></label>
+            <input type="text" required name="lname"  placeholder="enter here !"  id="TOM">
+            <br><br>
+            <label for="cap"><b>date of birth</b></label>
+            <input type="date" required name="dob" id="cap">
+            <br><br>
+            <label for="mate"> <b>Email id</b></label>
+            <input type="email" required name="email"  placeholder="enter here !"  id="mate">
+            <h3>gender</h3>
+           
+            <label for="male" >
+                <input type="radio" required name="gender" id="male" value="male">male
+            </label>
+            <br>
+             <label for="female"  >
+                <input type="radio" required name="gender" id="female"  value="female">female
+            </label>
+        </fieldset>
+        <br><br>
+
+
+
+
+
+
+
+
+
+
+
+<fieldset>
+    <legend><b>other information</b></legend>
+    
+            <h4 >country</h4>
+            <select name="contry" id="cntry">
+                <option  selected value="---">select country</option>
+                <option value="pak">pakistan</option>
+                <option value="ind">india</option>
+                <option value="rus">russia</option>
+                <option value="aus">australia</option>
+                <option value="usa">usa</option>
+                <option value="uk">united kingdom</option>
+                <option value="other">other</option>
+            </select>
+            <h4>province</h4>
+            <select name="province" id="prvnce">
+                <option  selected value="---">select province</option>
+                <option value="pub">punjab</option>
+                <option value="sindh">sindh</option>
+                <option value="blu">blochistan</option>
+                <option value="kpk">kpk</option>
+                <option value="ksh">kahsmir</option>
+            </select>
+            <br><br>
+            <label for="om"><b>address</b></label>
+            <input type="text" required name="address"  placeholder="enter here !"  id="om">
+            <br><br>
+            <label for="tm"><b>pin code</b> </label>
+            <input type="number" required name="pincode"  placeholder="enter here !"  id="tm">
+            <br><br>
+            
+            
+            
+        </fieldset>
+        <br>
+        
+        <input type="submit" >
+
+    </form>
+</body>
+</html>

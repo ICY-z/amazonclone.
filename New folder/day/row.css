@@ -1,0 +1,20 @@
+.container{
+
+background-color: black;
+color: aliceblue;
+gap: 4px;
+}
+
+.row{
+    border: 2px solid rgb(0, 0, 0);
+}
+.tom {
+    border: 2px solid crimson;
+}
+.container2 {
+
+    background-color: aliceblue;
+    color: black;
+    border: 3px black solid;
+}
+

@@ -1,0 +1,30 @@
+h1 {
+   text-align: center;
+   text-decoration: overline  ;
+   text-shadow: 10px 10px 10px rgb(239, 10, 10) , 5px 35px 44px rgb(255, 166, 0);
+}
+h2 {
+    text-decoration: underline
+
+}
+ul{
+    text-align: center;
+}
+p{
+    white-space: pre
+    ;
+}
+#tom {
+
+    font-style: italic;
+}
+body {
+    background-color: black;
+    color: aliceblue;
+}
+.mob {
+    font-style: oblique;
+}
+div {
+ text-align: center;
+}

@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+
+   height: 500px;
+   background-color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 100%;
+    background-color: aqua;
+}
+
+.sidebar {
+    flex-grow: 1;
+    background-color: brown;
+
+}
+
+.content {
+    flex-grow: 3;
+    background-color: chartreuse;
+
+}
+
+.footer {
+    flex:100% ;
+    background-color: blueviolet;
+}

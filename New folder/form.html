@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>foem in html</title>
+  </head>
+  <body>
+   <h1>introduction</h1>
+    <form>
+      <label for="fname"> first name </label>
+      <br />
+
+      <input type="text" required name="fname" id="fname" placeholder="enter here !" />
+      <br />
+
+      <label for="lname"> last name </label>
+      <br />
+      <input type="text" required name="lname" id="lname" placeholder="enter here !" />
+      <br />
+      <label for="email">email </label>
+      <br />
+      <input type="email" required name="email" id="email" placeholder="enter here !" />
+      <br />
+      <label for="nft">password</label>
+      <br />
+      <input
+      type="password"
+      required
+        name="password"
+        id="nft"
+        placeholder="enter here !"
+      />
+      <br />
+      <label for="cop">confirm password</label>
+      <br />
+      <input
+        type="password"
+        required
+        name="confirm password"
+        id="cop"
+        placeholder="enter here !"
+      />
+      <br />
+
+      <h4>gender</h4>
+      <label for="male">
+        <input type="radio" id="male" name="gender" value="male" />
+        MALE
+      </label>
+      <br />
+      <label for="female">
+        <input type="radio" id="female" name="gender" value="female" />female
+      </label>
+      <br />
+      <label for="none">
+        <input
+          type="radio"
+          id="none"
+          name="gender"
+          value="none "
+        />none
+      </label>
+      <br /><br />
+      <h4>eduction</h4>
+      <label for="matric">
+         <input type="checkbox" id="matric" name="eduction" value="matric">
+         matric
+      </label>
+      <br>
+      <label for="inter">
+         <input type="checkbox" id="inter" name="eduction" value="inter">
+         inter
+      </label>
+      <br>
+      <label for="graduation">
+         <input type="checkbox" id="graduation" name="eduction" value="graduation">
+         graduation
+      </label>
+      <br>
+      <label for="masters">
+         <input type="checkbox" id="masters" name="eduction" value="masters">
+         masters
+      </label>
+      <br><br>
+      <h4>city</h4>
+      <label for="cty">your city</label>
+      <br>
+
+      <select name="city" id="cty">
+         <option value=""> ----</option>
+         <option value="lhr">lahore</option>
+         <option selected value="isb">islambad</option>
+         <option value="khi">karachi</option>
+         <option value="mlt">multan</option>
+         <option value="gujr">gujranwala</option>
+         <option value="guj">gujrat</option>
+         <option value="oth">other--</optin>
+      </select>
+      <br><br>
+
+      <p>region</p>
+      <input type="text" name="province"
+      list="province">
+      <datalist id="province">
+         <option value="sindh"></option>
+         <option value="punjab"></option>
+         <option value="blochistan"></option>
+         <option value="kahsmir"></option>
+         <option value="kpk"></option>
+      </datalist>
+
+
+
+
+
+
+
+
+
+
+      <br><br>
+      <input type="submit" value="register" />
+    </form>
+  </body>
+</html>

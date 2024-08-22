@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.newbar{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    
+}
+.logo {
+    display: inline-block;
+    background-color: aqua;
+}
+.menu {
+    float: right;
+    
+}
+.menu-item {
+    background-color: rgb(210, 5, 210);
+    color: aliceblue;
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: small;
+    margin: 5px;
+}
+.menu a {
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 1s ;
+    
+}
+.menu a:hover {
+    background-color: purple;
+    font-size: 24px;
+
+}

@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    gap: 10px;
+    background-color: black;
+    height: 500px;
+
+    grid-template-areas:
+             "header header header header "
+             "menu  main    main   right"
+             "menu footer footer footer"
+    
+    
+    
+    ;
+           
+}
+
+.header {
+
+    grid-area: header ;
+    background-color: blue;
+
+}
+
+.menu {
+    grid-area: menu ;
+    background-color: rgb(86, 7, 160);
+}
+
+.main  {
+    grid-area: main ;
+    background-color: rgb(255, 0, 0);
+
+}
+
+.right {
+
+    grid-area: right;
+    background-color: chartreuse;
+
+}
+.footer {
+
+    grid-area: footer ;
+    background-color: rgb(255, 230, 0);
+}
+@media screen and (max-width 500px) {
+
+    .header {
+        background-color: darkblue;
+        color: aqua;
+    }
+    
+}
