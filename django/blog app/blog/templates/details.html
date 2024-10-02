@@ -1,0 +1,17 @@
+{% extends "blog/layout.html"%}
+{% extends 'base.html'%}
+
+
+{% block content %}
+<div class="blog-entry">
+    <h2>{{ blog.title}}</h2>
+    <p> {{ blog.body}}</p>
+</div>
+{% endblock content %}
+
+<!-- {% block content %}
+<div class="blog-entry">
+<h2>{{ object.title }}</h2>
+<p>{{ object.body }}</p>
+</div>
+{% endblock content %} -->
